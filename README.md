@@ -2,5 +2,3 @@
 # Hello Vuepress
 
 foo
-
-bar

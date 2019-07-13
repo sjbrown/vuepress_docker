@@ -1,0 +1,3 @@
+#! /bin/bash
+
+supervisor -- /usr/local/bin/vuepress dev --no-clear-screen
