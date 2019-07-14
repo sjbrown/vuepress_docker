@@ -3,6 +3,8 @@
 echo "====== Starting vuepress shell ====="
 echo " within the shell, you can run commands:"
 echo ""
+echo "  vuepress -v"
+echo "  vuepress build"
 echo "  vuepress dev   ( server will be visible at http://localhost:8080 )"
 echo ""
 
