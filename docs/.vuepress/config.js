@@ -6,8 +6,15 @@ module.exports = {
     sidebar: [
       '/',
       '/page_a.md',
-      ['/page_b', 'Explicit link text']
+      ['/page_b', 'Explicit link text'],
     ]
-  }
+  },
+
+  plugins: {
+    '@vuepress/active-header-links': {
+        //sidebarLinkSelector: '.sidebar-link',
+        //headerAnchorSelector: '.header-anchor',
+    },
+  },
 
 }
